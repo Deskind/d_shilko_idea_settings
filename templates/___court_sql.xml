@@ -1,0 +1,67 @@
+<templateSet group="+++court_sql">
+  <template name="court shit by suit num" value="select suit.NUM_SUIT, suit.SUIT_ID, claim.CLAIM_ID, claim.review_date&#10;from LAW_SUIT suit&#10;         inner join LAW_CLAIM claim&#10;                    on suit.SUIT_ID = claim.SUIT_ID&#10;where suit.NUM_SUIT = '1ГИП201283';" description="find some shit by suit number" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="court shit classifier" value="select type, code, lex1 &#10;from KL_UNI&#10;where  type = 389 and code in (203, 205)" description="to find classifiers" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="court shit find a suit with particular law paroceeding" value="select suit.NUM_SUIT&#10;from LAW_SUIT suit&#10;inner join LAW_CLAIM claim on suit.SUIT_ID = claim.SUIT_ID&#10;inner join LAW_REVIEW_PROCESS review on claim.CLAIM_ID = review.CLAIM_ID&#10;inner join law_proceeding proc on review.ID = proc.REVIEW_PROCESS_ID&#10;where C_PROC = 73&#10;and suit.C_TYPE_SUIT = 3&#10;order by claim.DATE_DOC desc;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="court shit classifier mapping" value="@ManyToOne&#10;    @JoinColumns({&#10;            @JoinColumn(name = &quot;T_SERVICES&quot;, referencedColumnName = &quot;TYPE&quot;),&#10;            @JoinColumn(name = &quot;C_SERVICES&quot;, referencedColumnName = &quot;CODE&quot;)&#10;    })&#10;    private Classifier serviceName;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="court shit  fetch settings" value="declare&#10;    counter number;&#10;    &#10;    QUANTITY_DAYS_BEFORE_OVERDUE# NUMBER;&#10;    REMIND_DAYS#                  NUMBER;&#10;    N_TYPE#                       VARCHAR2(2000) := 'CIVIL_INTEL_PROTEST_CASE_EXPIRES';&#10;begin&#10;    select count(*) into counter from PROCEDURE_LOG;&#10;    dbms_output.put_line('Before: ' || counter);&#10;    &#10;    SETTINGS_UTIL.FETCH_SETTINGS(51,&#10;                                 TO_DATE('2020-06-03 10:48:27', 'YYYY-MM-DD HH24:MI:SS'),&#10;                                 'DEFAULT',&#10;                                 REMIND_DAYS#,&#10;                                 N_TYPE#,&#10;                                 QUANTITY_DAYS_BEFORE_OVERDUE#);&#10;&#10;    select count(*) into counter from PROCEDURE_LOG;&#10;    dbms_output.put_line('After: ' || counter);&#10;end;" description="settings check" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="court shit claim multi classifier check" value="begin&#10;if(MULTI_UNI_UTIL.CHECK_CLAIM_MULTI_CLASSIFIER(4036474, 389, 755)) then&#10;    dbms_output.put_line('Present!');&#10;else&#10;    dbms_output.put_line('Not present!');&#10;end if;&#10;end;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="court shit log error" value="PL_SQL_LOG.LOG_ERROR(&#10;                    'SETTINGS_UTIL.FETCH_SETTINGS',&#10;                    SQLCODE,&#10;                    SQLERRM,&#10;                    'params description here');" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="court shit locked documents" value="select doc.*&#10;from doc&#10;         inner join locked_documents locked&#10;                    on doc.DOC_ID = locked.DOC_ID" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="court shit suit notifications" value="select claim.claim_id,&#10;       claim.c_stage,&#10;       suit.SUIT_ID,&#10;       suit.NUM_SUIT,&#10;       '----- outer ---- &gt;',&#10;       outer.id,&#10;       outer.N_TYPE,&#10;       outer.ACCESS_TOKEN,&#10;       '----- inner ---- &gt;',&#10;       inner.N_ID,&#10;       inner.N_TYPE&#10;from LAW_SUIT suit&#10;inner join law_claim claim&#10;    on suit.SUIT_ID = claim.SUIT_ID&#10;left join OUTER_NOTIFICATIONS outer&#10;    on outer.ASSOCIATED_ENTITY_ID = suit.SUIT_ID&#10;        or outer.ASSOCIATED_ENTITY_ID = claim.CLAIM_ID&#10;left join INNER_NOTIFICATIONS inner&#10;    on inner.SUIT_ID = suit.SUIT_ID&#10;where NUM_SUIT = '93АП219';&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="court shit notifications subscriptions" value="select head.OUTER_NAME, head.INNER_NAME, hr.SYMBOLIC_NAME&#10;from NOTIFICATIONS_SETTINGS_HEAD head&#10;         inner join NOTIFICATIONS_FOR_USER link&#10;                    on head.ID = link.NOTIFICATION_HEAD_ID&#10;         inner join USERS&#10;                    on USERS.USER_LOGIN = link.USER_NAME&#10;         inner join hr&#10;                    on hr.PERSONAL_ID = USERS.PERSONAL_ID;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="court shit claim and suit join" value="from law_claim claim&#10;                 inner join law_suit&#10;                            on claim.suit_id = law_suit.suit_id" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="court shit settings chain" value="select '---&gt; head &lt;---',&#10;       head.*,&#10;       '---&gt;',&#10;       head_stage_link.*,&#10;       '---&gt; stage &lt;---',&#10;       stage.*,&#10;       '---&gt;',&#10;       stage_setting_link.*,&#10;       '---&gt; setting &lt;---',&#10;       setting.*&#10;from NOTIFICATIONS_SETTINGS_HEAD head&#10;    inner join NOTIFICATIONS_HEAD_TO_STAGE head_stage_link&#10;        on head.ID = head_stage_link.HEAD_ID&#10;    inner join NOTIFICATIONS_SETTINGS_STAGE stage&#10;        on head_stage_link.STAGE_CODE = stage.CODE&#10;    inner join NOTIFICATION_STAGE_TO_SETTING stage_setting_link&#10;        on stage.CODE = stage_setting_link.STAGE_ID&#10;    inner join NOTIFICATIONS_SETTINGS setting&#10;        on stage_setting_link.SETTING_ID = setting.ID&#10;where 1 = 1&#10;and stage.CODE = 35&#10;and head.OUTER_NAME = 'CIVIL_INTEL_CLAIM_CASE_EXPIRES'&#10;and setting.NOTIFICATION_ENG_NAME = 'CIVIL_INTEL_CLAIM_CASE_EXPIRES'&#10;order by head.id;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="court shit get execution status" value="select suit.NUM_SUIT, exe.CURRENT_STATUS&#10;from law_suit suit&#10;    inner join EXECUTION_DECISION exe&#10;        on suit.SUIT_ID = exe.SUIT_ID&#10;where exe.CURRENT_STATUS is not null;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,27 @@
+<templateSet group="+++now">
+  <template name="now control code" value="control_code number := 254" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="now full cleanup" value="/*если не указан ID заявления - значит чистим и пересчитываем все*/&#10;if (CLAIM_ID# is null) then&#10;  delete from law_control_case where c_control = control_code;&#10;end if;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="now procedure call" value="term_control_utils.do_term_updates(var.claim_id,&#10;                                   control_code,&#10;                                   var.day,&#10;                                   0);" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="now greeting" value="String greeting = &quot;Hello world!&quot;;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="now if" value="if (stage_code# in ()) then&#10;    civil_control.(claim_id#);             &#10;end if;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+</templateSet>

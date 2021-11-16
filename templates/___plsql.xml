@@ -1,0 +1,7 @@
+<templateSet group="+++plsql">
+  <template name="plsql if else" value="if () then&#10;            &#10;else&#10;            &#10;end if;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+</templateSet>

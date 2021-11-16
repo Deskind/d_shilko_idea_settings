@@ -1,0 +1,23 @@
+<application>
+  <component name="AppStorage">
+    <histories>
+      <item value="Measure" />
+      <item value="Postponed" />
+      <item value="Stealth" />
+      <item value="swap" />
+      <item value="at least one court order present" />
+      <item value="atleast one court order present" />
+      <item value="atleast" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="ENGLISH" value="12" />
+        <entry key="RUSSIAN" value="9" />
+        <entry key="ROMANIAN" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1623158629613" />
+  </component>
+</application>

@@ -1,0 +1,12 @@
+<templateSet group="+++log4j">
+  <template name="log4j file appender" value="&lt;File name=&quot;MyFile&quot; fileName=&quot;logs/app.log&quot;&gt;&#10;      &lt;PatternLayout&gt;&#10;        &lt;Pattern&gt;%d %p %c{1.} [%t] %m%n&lt;/Pattern&gt;&#10;      &lt;/PatternLayout&gt;&#10;    &lt;/File&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="log4j logger" value="&lt;Logger name=&quot;by.todes.sticker_manager.rest&quot;&#10;                level=&quot;debug&quot;&#10;                additivity=&quot;false&quot;&gt;&#10;            &lt;AppenderRef ref=&quot;settingsFile&quot;/&gt;&#10;        &lt;/Logger&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>

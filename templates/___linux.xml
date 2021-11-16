@@ -1,0 +1,6 @@
+<templateSet group="+++linux">
+  <template name="linux distro info" value="lsb_release -a" description="" toReformat="false" toShortenFQNames="true" />
+  <template name="linux process by id" value="ps -p 1337" description="" toReformat="false" toShortenFQNames="true" />
+  <template name="linux to list services" value="service --status-all (SysVinit)&#10;systemctl list-units (systemd)" description="https://devconnected.com/how-to-list-services-on-linux/" toReformat="false" toShortenFQNames="true" />
+  <template name="+++linux nginx" value="nginx -t" description="" toReformat="false" toShortenFQNames="true" />
+</templateSet>

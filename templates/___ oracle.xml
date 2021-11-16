@@ -1,0 +1,42 @@
+<templateSet group="+++ oracle">
+  <template name="oracle to_date()" value="TO_DATE('2021-04-13 10:38:44', 'YYYY-MM-DD HH24:MI:SS')" description="to date function" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="oracle fetch_settings" value="declare&#10;    stage_code number := 22;&#10;    remind_days number := 0;&#10;    condition_alias varchar(255) := 'DEFAULT';&#10;    notification_name varchar(255) := 'CRIME_CLAIM_CASE_EXPIRES';&#10;    allowed_days number := 0;&#10;begin&#10;    SETTINGS_UTIL.FETCH_SETTINGS(&#10;            stage_code ,&#10;            TO_DATE('2021-04-12', 'YYYY-MM-DD') ,&#10;            condition_alias ,&#10;            remind_days ,&#10;            notification_name,&#10;            allowed_days&#10;        );&#10;end;" description="mock fetch_settings procedure in the settings_utils package" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="oracle dbms_output" value="dbms_output.put_line('');" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="oracle all constraints" value="select *&#10;from ALL_CONSTRAINTS&#10;where table_name = 'REVIEW_PROCESS_LAW_DOCUMENT';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="oracle locked objects" value="SELECT *&#10;FROM V$Locked_Object A, All_Objects B&#10;WHERE A.Object_ID = B.Object_ID;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="oracle to date function" value="TO_DATE('2020-06-03 10:48:27', 'YYYY-MM-DD HH24:MI:SS')" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="orace disable contraint" value="ALTER TABLE NOTIFICATIONS_FOR_USER&#10;DISABLE CONSTRAINT USER_NOTIF_TO_NOTIF_FK" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="oracle compile with debug flag" value="alter package CIVIL_BANER compile debug body reuse settings;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+</templateSet>

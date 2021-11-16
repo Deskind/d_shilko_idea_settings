@@ -1,0 +1,17 @@
+<templateSet group="user">
+  <template name="срок устранения недостатков" value="rememberMeAs(&quot;Срок устранения недостатков_дата_0_53&quot;, fromProceedingClassic(EconomProceedingClassic::getTermFix));" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="дата устранения недостатков" value="rememberMeAs(&quot;Дата устранения недостатков_дата_0_53&quot;, fromProceedingClassic(EconomProceedingClassic::getDateFix));" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="dbms_output" value="dbms_output.put_line('')" description="oracle log entry" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+</templateSet>

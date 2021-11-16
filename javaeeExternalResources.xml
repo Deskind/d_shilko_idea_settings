@@ -1,0 +1,5 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://primefaces.org/ui" location="$MAVEN_REPOSITORY$/org/primefaces/primefaces/7.0/primefaces-7.0.jar!/META-INF/primefaces-p.taglib.xml" />
+  </component>
+</application>
