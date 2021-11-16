@@ -4,4 +4,9 @@
       <option name="SQL" value="true" />
     </context>
   </template>
+  <template name="liquibase changeset" value="--changeset &lt;author_name&gt;:&lt;change_set_description&gt;" description="change set comment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
 </templateSet>
