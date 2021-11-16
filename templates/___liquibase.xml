@@ -1,0 +1,7 @@
+<templateSet group="+++liquibase">
+  <template name="liquibase formatted sql" value="--liquibase formatted sql" description="for properties file" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+</templateSet>
