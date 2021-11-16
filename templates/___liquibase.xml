@@ -50,4 +50,9 @@
     </context>
   </template>
   <template name="liquibase rollback counted" value="liquibase rollbackCount 1" description="to roll back last item" toReformat="false" toShortenFQNames="true" />
+  <template name="liquibase label" value="--labels: v1.0" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
 </templateSet>
