@@ -1,4 +1,5 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="ActivateCommitToolWindow" />
   <action id="ActivateDatabaseConsoleToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
@@ -16,6 +17,9 @@
   <action id="ActivateHierarchyToolWindow" />
   <action id="ActivateJPAConsoleToolWindow">
     <keyboard-shortcut first-keystroke="alt 8" />
+  </action>
+  <action id="ActivateMavenToolWindow">
+    <keyboard-shortcut first-keystroke="alt 0" />
   </action>
   <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateRunToolWindow" />
