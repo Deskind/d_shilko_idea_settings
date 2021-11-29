@@ -165,6 +165,10 @@
   <action id="ToggleDistractionFreeMode">
     <keyboard-shortcut first-keystroke="ctrl alt d" />
   </action>
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="ctrl f8" />
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
   <action id="UsageGrouping.DirectoryStructure" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.QuickListPopupAction" />
