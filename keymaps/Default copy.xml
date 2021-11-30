@@ -49,6 +49,8 @@
     <keyboard-shortcut first-keystroke="ctrl q" />
   </action>
   <action id="CollapseBlock" />
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.SplitLine" />
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="enter" />
     <keyboard-shortcut first-keystroke="alt enter" />
@@ -57,6 +59,7 @@
   <action id="ContextHelp" />
   <action id="CopyElement" />
   <action id="Debugger.EditArrayFilter" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="EditorContextInfo" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
@@ -76,6 +79,7 @@
     <keyboard-shortcut first-keystroke="right" />
     <keyboard-shortcut first-keystroke="alt l" />
   </action>
+  <action id="EditorSplitLine" />
   <action id="EditorUp">
     <keyboard-shortcut first-keystroke="up" />
     <keyboard-shortcut first-keystroke="alt i" />
@@ -109,10 +113,13 @@
     <mouse-shortcut keystroke="alt button2" />
   </action>
   <action id="InsertLiveTemplate" />
+  <action id="KotlinShellExecute" />
   <action id="LivePlugin.RunPlugin">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
   <action id="LivePlugin.TestPlugin" />
+  <action id="NotebookRunCellAction" />
+  <action id="PyExecuteCellAction" />
   <action id="QuickChangeScheme">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
     <keyboard-shortcut first-keystroke="alt q" />
@@ -147,11 +154,16 @@
     <keyboard-shortcut first-keystroke="alt home" />
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
+  <action id="SplitChooser.Duplicate" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
   <action id="TW.ViewModeGroup">
     <keyboard-shortcut first-keystroke="alt back_quote" />
+  </action>
+  <action id="Terminal.SmartCommandExecution.Run" />
+  <action id="TerminalSplitActionBase$Vertical">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="ToggleBookmark">
     <keyboard-shortcut first-keystroke="f11" />
@@ -172,6 +184,7 @@
   <action id="UsageGrouping.DirectoryStructure" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.QuickListPopupAction" />
+  <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="shift ctrl m" />
