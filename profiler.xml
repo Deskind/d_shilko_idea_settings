@@ -1,0 +1,9 @@
+<application>
+  <component name="CommonProfilerUISettings">
+    <option name="snapshotOptions">
+      <snapshot-options>
+        <option name="folder" value="G:\++++\+++heap_snapshots+++" />
+      </snapshot-options>
+    </option>
+  </component>
+</application>
