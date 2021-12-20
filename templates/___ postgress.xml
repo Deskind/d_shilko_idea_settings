@@ -1,0 +1,12 @@
+<templateSet group="+++ postgress">
+  <template name="pg new sequence" value="create sequence chat_user_id_seq&#10;    as integer;&#10;&#10;alter sequence chat_user_id_seq owner to postgres;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+  <template name="pg default for PK" value="nextval('chat_user_id_seq'::regclass)" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="SQL" value="true" />
+    </context>
+  </template>
+</templateSet>
