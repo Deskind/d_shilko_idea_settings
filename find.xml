@@ -3,6 +3,7 @@
     <option name="customScope" value="Default Changelist" />
     <option name="defaultScopeName" value="Default Changelist" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
+    <option name="FILE_MASK" value="*.pom" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.as</mask>
@@ -13,7 +14,7 @@
     <mask>*.properties</mask>
     <mask>*.css</mask>
     <mask>*.java</mask>
-    <mask>*.pom</mask>
     <mask>*.xhtml</mask>
+    <mask>*.pom</mask>
   </component>
 </application>
