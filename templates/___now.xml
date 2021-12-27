@@ -24,7 +24,7 @@
       <option name="SQL" value="true" />
     </context>
   </template>
-  <template name="now_open_api_scheman_description" value="@Schema(description = &quot;&quot;)" toReformat="false" toShortenFQNames="true">
+  <template name="now_open_api_scheman_description" value="@Schema(description = &quot;&quot;)" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
