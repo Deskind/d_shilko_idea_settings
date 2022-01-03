@@ -7,7 +7,7 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/liqui_test</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="@localhost" uuid="06e759ce-e107-48b5-a368-c53ac2472032">
+    <data-source source="LOCAL" name="postgres@docker" uuid="06e759ce-e107-48b5-a368-c53ac2472032">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
