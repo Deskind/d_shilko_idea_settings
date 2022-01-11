@@ -4,7 +4,7 @@
     <property name="created">2021-06-15T09:26:34</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2021.1.2.0.0</property>
-    <property name="modified">2022-01-11T10:52:15</property>
+    <property name="modified">2022-01-11T11:38:25</property>
     <property name="originalScheme">Night Owl (Material)</property>
   </metaInfo>
   <console-font>
@@ -233,7 +233,7 @@
       <value>
         <option name="BACKGROUND" value="160632" />
         <option name="FONT_TYPE" value="1" />
-        <option name="ERROR_STRIPE_COLOR" value="dbdbdb" />
+        <option name="ERROR_STRIPE_COLOR" value="ffffff" />
       </value>
     </option>
     <option name="BREADCRUMBS_CURRENT">
@@ -1111,7 +1111,7 @@
       <value>
         <option name="BACKGROUND" value="a5180c" />
         <option name="FONT_TYPE" value="1" />
-        <option name="ERROR_STRIPE_COLOR" value="4d6168" />
+        <option name="ERROR_STRIPE_COLOR" value="13ef1e" />
       </value>
     </option>
     <option name="IGNORE.BRACKET">
@@ -3740,7 +3740,7 @@
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="19405c" />
-        <option name="ERROR_STRIPE_COLOR" value="4d6168" />
+        <option name="ERROR_STRIPE_COLOR" value="ef0a25" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
