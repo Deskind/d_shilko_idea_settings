@@ -3,17 +3,18 @@
     <option name="customScope" value="Default Changelist" />
     <option name="defaultScopeName" value="Default Changelist" />
     <option name="SEARCH_SCOPE" value="Default Changelist" />
+    <option name="FILE_MASK" value="*.xml" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*.js</mask>
-    <mask>*.xml</mask>
     <mask>*pom.xml</mask>
     <mask>*.properties</mask>
     <mask>*.css</mask>
     <mask>*.java</mask>
     <mask>*.pom</mask>
     <mask>*.xhtml</mask>
+    <mask>*.xml</mask>
   </component>
 </application>
