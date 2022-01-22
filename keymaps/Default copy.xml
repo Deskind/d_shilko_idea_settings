@@ -152,6 +152,7 @@
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="alt home" />
     <keyboard-shortcut first-keystroke="alt w" />
+    <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="SplitChooser.Duplicate" />
   <action id="SplitHorizontally">

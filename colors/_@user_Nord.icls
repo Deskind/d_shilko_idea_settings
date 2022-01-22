@@ -4,7 +4,7 @@
     <property name="created">2019-11-26T16:28:13</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2019.1.2.0.0</property>
-    <property name="modified">2021-01-18T09:51:58</property>
+    <property name="modified">2022-01-11T12:10:57</property>
     <property name="originalScheme">Nord</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
@@ -27,21 +27,27 @@
     <option name="DIAGRAM_REALIZATION_EDGE" value="a3be8c" />
     <option name="DOCUMENTATION_COLOR" value="3b4252" />
     <option name="ERROR_HINT" value="434c5e" />
-    <option name="FILESTATUS_ADDED" value="a3be8c" />
-    <option name="FILESTATUS_DELETED" value="bf616a" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="4c566a" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="4c566a" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="d08770" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="d08770" />
-    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="d08770" />
-    <option name="FILESTATUS_MERGED" value="81a1c1" />
-    <option name="FILESTATUS_MODIFIED" value="ebcb8b" />
-    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="88c0d0" />
-    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="88c0d0" />
-    <option name="FILESTATUS_UNKNOWN" value="bf616a" />
-    <option name="FILESTATUS_addedOutside" value="a3be8c" />
-    <option name="FILESTATUS_changelistConflict" value="d08770" />
-    <option name="FILESTATUS_modifiedOutside" value="ebcb8b" />
+    <option name="FILESTATUS_ADDED" value="c3e887" />
+    <option name="FILESTATUS_COPIED" value="9ccc65" />
+    <option name="FILESTATUS_DELETED" value="f77669" />
+    <option name="FILESTATUS_HIJACKED" value="ffcb6b" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="ef5350" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="395a75" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ffeb95" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ffeb95" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ffeb95" />
+    <option name="FILESTATUS_MERGED" value="a2bffc" />
+    <option name="FILESTATUS_MODIFIED" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80cbc4" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80cbc4" />
+    <option name="FILESTATUS_OBSOLETE" value="ffcb6b" />
+    <option name="FILESTATUS_RENAMED" value="7e57c2" />
+    <option name="FILESTATUS_SUPPRESSED" value="546e7a" />
+    <option name="FILESTATUS_SWITCHED" value="f77669" />
+    <option name="FILESTATUS_UNKNOWN" value="f77669" />
+    <option name="FILESTATUS_addedOutside" value="addb67" />
+    <option name="FILESTATUS_changelistConflict" value="ffeb95" />
+    <option name="FILESTATUS_modifiedOutside" value="a2bffc" />
     <option name="GUTTER_BACKGROUND" value="2e3440" />
     <option name="INDENT_GUIDE" value="4c566a" />
     <option name="INFORMATION_HINT" value="434c5e" />
@@ -390,7 +396,6 @@
         <option name="FOREGROUND" value="5e81ac" />
       </value>
     </option>
-    <option name="CSS.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="CSS.PROPERTY_VALUE">
       <value>
         <option name="FOREGROUND" value="81a1c1" />
@@ -401,7 +406,6 @@
         <option name="FOREGROUND" value="88c0d0" />
       </value>
     </option>
-    <option name="CSS.TAG_NAME" baseAttributes="HTML_TAG_NAME" />
     <option name="CSS.UNICODE.RANGE">
       <value>
         <option name="FOREGROUND" value="ebcb8b" />
@@ -1050,8 +1054,6 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="JAVA_VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="ebcb8b" />
@@ -1087,7 +1089,6 @@
         <option name="EFFECT_COLOR" value="d8dee9" />
       </value>
     </option>
-    <option name="KOTLIN_ANNOTATION" baseAttributes="ANNOTATION_NAME_ATTRIBUTES" />
     <option name="KOTLIN_BACKING_FIELD_VARIABLE">
       <value />
     </option>
