@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Module 'deployments-info'" />
-    <option name="defaultScopeName" value="Module 'deployments-info'" />
-    <option name="SEARCH_SCOPE" value="Module 'deployments-info'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.as</mask>
