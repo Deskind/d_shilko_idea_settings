@@ -1,6 +1,6 @@
 <application>
   <component name="dataSourceStorage" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="health-cadastr@vm-docker.todes.by" uuid="76015658-b876-40b1-ab82-356918cafc04">
+    <data-source source="LOCAL" name="liqui_test@localhost" uuid="76015658-b876-40b1-ab82-356918cafc04">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
