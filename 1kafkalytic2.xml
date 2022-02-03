@@ -19,6 +19,7 @@
         <entry key="printToEventSelected" value="false" />
         <entry key="printToFile" value="G:\PROJECTS\+++healthcare\+++docker\data_from_topics\kafkaMessages.txt" />
         <entry key="printToFileSelected" value="true" />
+        <entry key="progress_tip" value="shown" />
       </map>
     </option>
   </component>
