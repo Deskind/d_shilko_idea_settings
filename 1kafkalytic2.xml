@@ -1,18 +1,5 @@
 <application>
   <component name="Kafkalytic">
-    <option name="clusters">
-      <map>
-        <entry key="172.22.45.54:19092">
-          <value>
-            <map>
-              <entry key="bootstrap.servers" value="172.22.45.54:19092" />
-              <entry key="name" value="172.22.45.54:19092" />
-              <entry key="request.timeout.ms" value="5000" />
-            </map>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="config">
       <map>
         <entry key="printToEditorSelected" value="false" />
