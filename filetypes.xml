@@ -1,8 +1,8 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="law_suit_trigger" type="AUTO_DETECTED" />
       <mapping pattern="build_json_from_ate_address.sql" type="AUTO_DETECTED" />
+      <mapping pattern="law_suit_trigger" type="AUTO_DETECTED" />
       <mapping pattern="law_suit_trigger.sql" type="AUTO_DETECTED" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />

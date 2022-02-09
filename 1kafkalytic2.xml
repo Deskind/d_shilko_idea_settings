@@ -1,5 +1,18 @@
 <application>
   <component name="Kafkalytic">
+    <option name="clusters">
+      <map>
+        <entry key="vm-docker.todes.by:19092">
+          <value>
+            <map>
+              <entry key="bootstrap.servers" value="vm-docker.todes.by:19092" />
+              <entry key="name" value="vm-docker.todes.by:19092" />
+              <entry key="request.timeout.ms" value="5000" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="config">
       <map>
         <entry key="printToEditorSelected" value="false" />
