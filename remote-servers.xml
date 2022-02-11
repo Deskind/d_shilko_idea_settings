@@ -1,8 +1,14 @@
 <application>
   <component name="RemoteServers">
-    <remote-server name="Docker" type="docker">
+    <remote-server name="vm-docker.todes.by" type="docker">
       <configuration>
         <option name="apiUrl" value="tcp://vm-docker.todes.by:2375" />
+      </configuration>
+    </remote-server>
+    <remote-server name="Docker@localhost" type="docker">
+      <configuration>
+        <option name="apiUrl" value="npipe:////./pipe/docker_engine" />
+        <option name="certificatesPath" />
       </configuration>
     </remote-server>
   </component>
