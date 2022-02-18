@@ -90,6 +90,10 @@
           <option name="url" value="https://github.com/MoLoT-666/myFirstClass2022.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/wahyaumau/spring-boot-bulk-insert.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\PROJECTS" />
