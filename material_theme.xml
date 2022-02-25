@@ -3,24 +3,30 @@
     <option name="compactMenus" value="true" />
     <option name="compactStatusBar" value="true" />
     <option name="compactTables" value="true" />
-    <option name="contrastMode" value="true" />
     <option name="customTreeIndentEnabled" value="true" />
-    <option name="accentMode" value="true" />
+    <option name="useMaterialFont" value="true" />
     <option name="compactDropdowns" value="true" />
     <option name="compactSidebar" value="true" />
     <option name="isCompactMenus" value="true" />
     <option name="isCompactStatusBar" value="true" />
     <option name="isCompactTables" value="true" />
-    <option name="isContrastMode" value="true" />
     <option name="isCustomTreeIndentEnabled" value="true" />
-    <option name="isHighContrast" value="true" />
     <option name="isWizardShown" value="true" />
     <option name="pristineConfig" value="false" />
-    <option name="indicatorStyle" value="None" />
+    <option name="treeFontSizeEnabled" value="true" />
+    <option name="tabFontSizeEnabled" value="true" />
+    <option name="useMaterialFont2" value="true" />
+    <option name="useColoredDirectories" value="true" />
+    <option name="useProjectFrame" value="true" />
+    <option name="tabFontSize" value="18" />
+    <option name="indicatorThickness" value="4" />
+    <option name="leftTreeIndent" value="8" />
     <option name="settingsSelectedTab" value="2" />
     <option name="accentColor" value="7e57c2" />
     <option name="selectedTheme" value="NIGHT_OWL" />
     <option name="userId" value="-8f60599:177cbb1f7e8:-8000" />
     <option name="version" value="6.13.0" />
+    <option name="tabFont" value="Roboto Light" />
+    <option name="enforcedLanguageAdditions" value="true" />
   </component>
 </application>
