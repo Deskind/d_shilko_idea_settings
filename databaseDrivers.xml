@@ -11,7 +11,7 @@
       <artifact id="Oracle" name="Oracle" channel="fixed" rolling="false" use="true" version="12.2.0.1" />
     </driver>
     <driver id="postgresql">
-      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.2.22" />
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.2.5" />
     </driver>
   </component>
 </application>
