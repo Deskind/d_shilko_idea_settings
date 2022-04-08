@@ -106,9 +106,13 @@
           <option name="url" value="https://github.com/Kirya522/medium-posts.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://vm-git.todes.by/OldCourt/CourtBY-KlUni.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\PROJECTS\+++WORK+++\+++healthcare" />
+    <option name="cloneParentDir" value="D:\PROJECTS\+++WORK+++" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_TAG_NAMES" value="true" />
