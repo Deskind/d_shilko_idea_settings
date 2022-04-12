@@ -1,33 +1,5 @@
 <application>
   <component name="dataSourceStorage" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="health-cadastr-test@vm-docker.todes.by" uuid="1e710b35-2edc-4b52-a01a-5f06a45666eb">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://vm-docker.todes.by:5433/</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="health-cadastr-test@vm-docker.todes.by (cadaster_user)" uuid="6a826370-1c48-48ca-86a8-83e98cbf181d">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://vm-docker.todes.by:5433/cadaster_db</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="health-cadastr-dev@vm-docker.todes.by" uuid="10560082-da09-4923-94cd-26b7396fbfb7">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://vm-docker.todes.by:5434/</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="health-cadastr-dev@vm-docker.todes.by (cadaster_user)" uuid="193d1a77-fd12-4b02-a3d7-7550914b96e1">
-      <driver-ref>postgresql</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://vm-docker.todes.by:5434/cadaster_db</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="oracle@todes" uuid="88be907e-7962-4c06-91ca-e4555ab16839">
       <driver-ref>oracle.19</driver-ref>
       <synchronize>true</synchronize>

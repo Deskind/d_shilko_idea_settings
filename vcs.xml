@@ -110,6 +110,14 @@
           <option name="url" value="http://vm-git.todes.by/OldCourt/CourtBY-KlUni.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://vm-git.todes.by/OldCourt/DataModel.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://vm-git.todes.by/OldCourt/Common.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\PROJECTS\+++WORK+++" />
