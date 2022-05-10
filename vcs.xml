@@ -126,9 +126,13 @@
           <option name="url" value="http://vm-git.todes.by/Common/Email/email-client" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/jakartaee/enterprise-beans.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\PROJECTS\+++WORK+++" />
+    <option name="cloneParentDir" value="D:\PROJECTS\+++GITHUB+++" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_TAG_NAMES" value="true" />
