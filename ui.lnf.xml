@@ -16,5 +16,6 @@
     <option name="RECENT_LOCATIONS_LIMIT" value="15" />
     <option name="SHOW_CLOSE_BUTTON" value="false" />
     <option name="SORT_BOOKMARKS" value="true" />
+    <option name="CONTRAST_SCROLLBARS" value="true" />
   </component>
 </application>
