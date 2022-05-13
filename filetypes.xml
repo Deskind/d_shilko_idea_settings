@@ -11,6 +11,7 @@
       <mapping pattern="+++ delete me later" type="PLAIN_TEXT" />
       <mapping pattern="issue script" type="PLAIN_TEXT" />
       <mapping pattern="civil_control_2.sql" type="SQL" />
+      <mapping ext="pkb" type="SQL" />
       <mapping ext="xhml" type="XHTML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
