@@ -1,5 +1,10 @@
 <application>
   <component name="CommonProfilerUISettings">
+    <option name="callTreeState">
+      <call-tree-ui>
+        <option name="showCalleesList" value="false" />
+      </call-tree-ui>
+    </option>
     <option name="snapshotOptions">
       <snapshot-options>
         <option name="folder" value="G:\++++\+++heap_snapshots+++" />
