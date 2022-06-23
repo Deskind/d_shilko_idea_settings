@@ -8,8 +8,10 @@
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="+++ delete me later" type="PLAIN_TEXT" />
       <mapping pattern="issue script" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="civil_control_2.sql" type="SQL" />
       <mapping ext="pkb" type="SQL" />
       <mapping ext="xhml" type="XHTML" />
