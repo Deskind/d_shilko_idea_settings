@@ -138,9 +138,17 @@
           <option name="url" value="http://vm-git.todes.by/Court/Sources/external-mail.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="D:\PROJECTS\+++WORK\lawtube\lawtube\lawtube-admin" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://vm-git.todes.by/lawtube/lawtube-admin.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="D:\PROJECTS\+++WORK+++" />
+    <option name="cloneParentDir" value="D:\PROJECTS\+++WORK\lawtube\lawtube" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="SHOW_TAG_NAMES" value="true" />
