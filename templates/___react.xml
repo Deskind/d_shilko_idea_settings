@@ -1,5 +1,5 @@
 <templateSet group="+++react">
-  <template name="map state to props" value="const mapStateToProps = (state) =&gt; {&#10;    return {}&#10;}&#10;&#10;export default connect(mapStateToProps, {userSearchAction})(UserSearchCriteria);" toReformat="false" toShortenFQNames="true">
+  <template name="map state to props" value="const mapStateToProps = (state) =&gt; {&#10;    return {}&#10;}&#10;&#10;export default connect(mapStateToProps, {userSearchAction})(UserSearchCriteria);" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
