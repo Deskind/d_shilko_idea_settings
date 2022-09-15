@@ -5,7 +5,7 @@
     </driver>
     <driver id="oracle.19">
       <remarks>oracle @ 38</remarks>
-      <artifact id="Oracle" name="Oracle" use="true" version="21.1.0.0" />
+      <artifact id="Oracle" name="Oracle" use="true" version="21.5.0.0" />
     </driver>
     <driver id="oracle" dialect="OracleSqlPlus">
       <artifact id="Oracle" name="Oracle" channel="fixed" rolling="false" use="true" version="12.2.0.1" />
