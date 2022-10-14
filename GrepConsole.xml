@@ -29,6 +29,24 @@
             </list>
           </option>
         </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="DEBUG SELECT GRID_ID, NAME FROM GRIDS" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="bind =&gt; [1073]" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
       </list>
     </option>
     <option name="profiles">
