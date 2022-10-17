@@ -33,7 +33,7 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="DEBUG SELECT GRID_ID, NAME FROM GRIDS" />
+                <option name="expression" value="bind =&gt; [1073]" />
               </GrepModel>
             </list>
           </option>
@@ -42,7 +42,7 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="bind =&gt; [1073]" />
+                <option name="expression" value="DEBUG SELECT GRID_ID, NAME FROM GRIDS" />
               </GrepModel>
             </list>
           </option>
