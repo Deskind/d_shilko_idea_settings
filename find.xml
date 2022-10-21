@@ -10,10 +10,10 @@
     <mask>*.js</mask>
     <mask>*.properties</mask>
     <mask>*.xml</mask>
-    <mask>*.xhtml</mask>
     <mask>*.java</mask>
     <mask>*.css</mask>
     <mask>*.pom</mask>
     <mask>*pom.xml</mask>
+    <mask>*.xhtml</mask>
   </component>
 </application>
