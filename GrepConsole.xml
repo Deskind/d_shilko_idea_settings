@@ -47,6 +47,15 @@
             </list>
           </option>
         </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="last time:" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
       </list>
     </option>
     <option name="profiles">
