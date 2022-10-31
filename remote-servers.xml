@@ -11,7 +11,7 @@
         <option name="certificatesPath" />
       </configuration>
     </remote-server>
-    <remote-server name="Docker" type="docker">
+    <remote-server name="vm-law.todes.by" type="docker">
       <configuration>
         <option name="apiUrl" value="tcp://vm-law.todes.by:2375" />
       </configuration>
