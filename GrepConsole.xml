@@ -42,7 +42,7 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="last time:" />
+                <option name="expression" value="DEBUG SELECT GRID_ID, NAME FROM GRIDS" />
               </GrepModel>
             </list>
           </option>
@@ -51,7 +51,7 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="DEBUG SELECT GRID_ID, NAME FROM GRIDS" />
+                <option name="expression" value="last time:" />
               </GrepModel>
             </list>
           </option>
