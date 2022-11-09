@@ -16,8 +16,8 @@
     </option>
     <option name="config">
       <map>
-        <entry key="printToEditorSelected" value="false" />
-        <entry key="printToEventSelected" value="true" />
+        <entry key="printToEditorSelected" value="true" />
+        <entry key="printToEventSelected" value="false" />
         <entry key="printToFile" value="D:\PROJECTS\+++WORK+++\+++healthcare\+++\messages.txt" />
         <entry key="printToFileSelected" value="false" />
         <entry key="progress_tip" value="shown" />
