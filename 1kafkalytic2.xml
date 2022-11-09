@@ -2,12 +2,13 @@
   <component name="Kafkalytic">
     <option name="clusters">
       <map>
-        <entry key="vm-docker.todes.by:19092">
+        <entry key="kafka-cluster">
           <value>
             <map>
-              <entry key="bootstrap.servers" value="vm-docker.todes.by:19092" />
-              <entry key="name" value="vm-docker.todes.by:19092" />
+              <entry key="bootstrap.servers" value="localhost:9092" />
+              <entry key="name" value="kafka-cluster" />
               <entry key="request.timeout.ms" value="5000" />
+              <entry key="ssl.endpoint.identification.algorithm" value="" />
             </map>
           </value>
         </entry>
