@@ -1,0 +1,13 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2971b6af-f452-47fb-ab2d-0f798b5e2865" name="38ka (logs)" url="http://172.22.45.38">
+        <fileTransfer rootFolder="/opt/wildfly-20.0.1.Final/standalone/log" accessType="SFTP" host="172.22.45.38" port="22" sshConfigId="0ff7d29e-303b-409d-bf99-1c66535dcae0" sshConfig="root@172.22.45.38:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
