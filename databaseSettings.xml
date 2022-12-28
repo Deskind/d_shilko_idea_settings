@@ -1,5 +1,7 @@
 <application>
   <component name="DatabaseSettings" version="7">
+    <option name="page-size" value="50" />
+    <option name="page-size-updated-timestamp" value="1672229436981" />
     <text-mode>
       <parameter-patterns>
         <parameter-pattern value="#(\w+)#" in-scripts="true" scope="XML" predefined="#name#" />
