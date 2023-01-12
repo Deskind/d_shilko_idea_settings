@@ -1,25 +1,26 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="law_suit_trigger" type="AUTO_DETECTED" />
       <mapping pattern="build_json_from_ate_address.sql" type="AUTO_DETECTED" />
+      <mapping pattern="law_suit_trigger" type="AUTO_DETECTED" />
       <mapping pattern="mock_data_description.md" type="AUTO_DETECTED" />
-      <mapping pattern="RolesSlice" type="AUTO_DETECTED" />
       <mapping pattern="law_suit_trigger.sql" type="AUTO_DETECTED" />
+      <mapping pattern="RolesSlice" type="AUTO_DETECTED" />
       <mapping pattern=".env.development.local" type="JavaScript" />
-      <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping pattern=".env.production" type="PLAIN_TEXT" />
-      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
       <mapping pattern="+++ delete me later" type="PLAIN_TEXT" />
       <mapping pattern="issue script" type="PLAIN_TEXT" />
+      <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
+      <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="civil_control_2.sql" type="SQL" />
       <mapping ext="pkb" type="SQL" />
       <mapping ext="xhml" type="XHTML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
+      <removed_mapping pattern=".dockerignore" approved="true" type="DockerIgnore file" />
     </extensionMap>
   </component>
 </application>
