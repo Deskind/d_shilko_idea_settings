@@ -11,7 +11,6 @@
         <option value="Default.Root" />
         <option value="Default.Author" />
         <option value="Default.Subject" />
-        <option value="Default.Hash" />
         <option value="Default.Date" />
         <option value="Space.CommitStatus" />
       </list>
@@ -19,7 +18,7 @@
     <option name="COLUMN_ID_VISIBILITY">
       <map>
         <entry key="Table.Default.Date.ColumnIdVisibility" value="true" />
-        <entry key="Table.Default.Hash.ColumnIdVisibility" value="true" />
+        <entry key="Table.Default.Hash.ColumnIdVisibility" value="false" />
       </map>
     </option>
   </component>
