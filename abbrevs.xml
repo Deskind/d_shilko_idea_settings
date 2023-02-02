@@ -3,6 +3,7 @@
     <abbreviations>
       <action id="ToggleBookmarkWithMnemonic" />
       <action id="CloseActiveTab" />
+      <action id="Vcs.QuickListPopupAction" />
     </abbreviations>
   </component>
 </application>

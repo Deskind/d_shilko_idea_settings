@@ -78,6 +78,7 @@
     <keyboard-shortcut first-keystroke="ctrl j" />
   </action>
   <action id="EditorMatchBrace" />
+  <action id="EditorPasteSimple" />
   <action id="EditorPreviousWordWithSelection" />
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
@@ -189,7 +190,9 @@
   </action>
   <action id="UsageGrouping.DirectoryStructure" />
   <action id="Vcs.Log.FocusTextFilter" />
-  <action id="Vcs.QuickListPopupAction" />
+  <action id="Vcs.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt v" />
+  </action>
   <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.MuteBreakpoints">
