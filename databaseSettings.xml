@@ -1,7 +1,7 @@
 <application>
-  <component name="DatabaseSettings" version="7">
-    <option name="page-size" value="50" />
-    <option name="page-size-updated-timestamp" value="1672229436981" />
+  <component name="DatabaseSettings" version="9">
+    <option name="page-size" value="200" />
+    <option name="page-size-updated-timestamp" value="1678173983705" />
     <option name="skip-refactoring-preview" value="true" />
     <text-mode>
       <parameter-patterns>
@@ -13,6 +13,7 @@
         <parameter-pattern value="(?&lt;=\W|\A):(\d+|[a-zA-Z_](?:\w|\.)*)(?=\W|\z)" scope="JAVA,kotlin,Groovy" predefined=":a.b.c" />
         <parameter-pattern value="\$\{([^\{\}]*)\}" in-scripts="true" predefined="${name}" />
         <parameter-pattern value="\$\(([^\)]+)\)" in-scripts="true" predefined="$(name)" />
+        <parameter-pattern value="\:\'.*\'" in-scripts="true" scope="PostgreSQL" predefined=":'name'" />
       </parameter-patterns>
     </text-mode>
     <csv-formats>
