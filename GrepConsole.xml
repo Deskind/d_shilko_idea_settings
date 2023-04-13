@@ -114,15 +114,6 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="---&gt; " />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
                 <option name="expression" value="getResSmdoAbonentsList" />
               </GrepModel>
             </list>
@@ -133,6 +124,15 @@
             <list>
               <GrepModel>
                 <option name="expression" value="" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="---&gt; " />
               </GrepModel>
             </list>
           </option>
