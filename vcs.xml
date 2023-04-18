@@ -11,9 +11,9 @@
         <option value="Default.Root" />
         <option value="Default.Author" />
         <option value="Default.Subject" />
-        <option value="Default.Date" />
         <option value="Space.CommitStatus" />
         <option value="Default.Hash" />
+        <option value="Default.Date" />
       </list>
     </option>
     <option name="COLUMN_ID_VISIBILITY">
