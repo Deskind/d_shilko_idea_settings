@@ -4,4 +4,14 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="java date offset" value="new Date(System.currentTimeMillis() - (7 * 24 * 60 * 60 * 1000))" description="7 days ago" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="java setparams" value=".setParameter(3, new Date())&#10;                .setParameter(4, new Date(System.currentTimeMillis() - (7 * 24 * 60 * 60 * 1000)))" description="jpql params" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
