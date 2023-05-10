@@ -14,12 +14,12 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="java minus month" value="System.currentTimeMillis() - (30L * 24 * 60 * 60 * 1000))" toReformat="false" toShortenFQNames="true">
+  <template name="java minus month" value="System.currentTimeMillis() - (30L * 24 * 60 * 60 * 1000))" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="java plus a day" value="new Date(System.currentTimeMillis() + (1L * 24 * 60 * 60 * 1000))" toReformat="false" toShortenFQNames="true">
+  <template name="java plus a day" value="new Date(System.currentTimeMillis() + (1L * 24 * 60 * 60 * 1000))" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
