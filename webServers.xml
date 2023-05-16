@@ -23,7 +23,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="cde414b7-f6a5-4aae-b986-c6ecb25195bb" name="38ka">
-        <fileTransfer rootFolder="/opt" accessType="SFTP" host="172.22.45.38" port="22" sshConfigId="ca8d873f-6505-4818-bdb2-67e2a8cbf07f" sshConfig="root@172.22.45.38:22 password">
+        <fileTransfer accessType="SFTP" host="172.22.45.38" port="22" sshConfigId="ca8d873f-6505-4818-bdb2-67e2a8cbf07f" sshConfig="root@172.22.45.38:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
