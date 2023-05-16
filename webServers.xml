@@ -1,0 +1,34 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b87453a8-92dc-4477-a546-791da70718a6" name="court-test deployments">
+        <fileTransfer rootFolder="/opt/wildfly21copy0/standalone/deployments" accessType="SFTP" host="172.22.45.77" port="22" sshConfigId="36f79fc1-0b4c-4ff9-9b5a-3361b750f328" sshConfig="root@172.22.45.77:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="f4a14692-e5bf-47b3-9416-cc2b5e9979f8" name="court-prod-deployments">
+        <fileTransfer rootFolder="/opt/wildfly21copy0/standalone/deployments" accessType="SFTP" host="172.22.45.78" port="22" sshConfigId="ce1255b8-16f3-421d-a903-f3e3c99c633f" sshConfig="root@172.22.45.78:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="c4f8a4f4-7264-4536-9d2d-08b4ff1740ff" name="court-prod-modules">
+        <fileTransfer rootFolder="/opt/wildfly21copy0/" accessType="SFTP" host="172.22.45.78" port="22" sshConfigId="ce1255b8-16f3-421d-a903-f3e3c99c633f" sshConfig="root@172.22.45.78:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="cde414b7-f6a5-4aae-b986-c6ecb25195bb" name="38ka">
+        <fileTransfer rootFolder="/opt" accessType="SFTP" host="172.22.45.38" port="22" sshConfigId="ca8d873f-6505-4818-bdb2-67e2a8cbf07f" sshConfig="root@172.22.45.38:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
