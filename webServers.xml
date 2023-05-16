@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="b87453a8-92dc-4477-a546-791da70718a6" name="court-test deployments">
-        <fileTransfer rootFolder="/opt/wildfly21copy0/standalone/deployments" accessType="SFTP" host="172.22.45.77" port="22" sshConfigId="36f79fc1-0b4c-4ff9-9b5a-3361b750f328" sshConfig="root@172.22.45.77:22 password">
+        <fileTransfer rootFolder="/opt/wildfly21copy0/standalone/deployments" accessType="SFTP" sshConfigId="36f79fc1-0b4c-4ff9-9b5a-3361b750f328" sshConfig="root@172.22.45.77:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -30,7 +30,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="ac87bb81-3304-4868-96c9-1d52aa81708b" name="5ka">
-        <fileTransfer accessType="SFTP" host="172.22.45.5" port="22" sshConfigId="7c25bc9c-fe62-4390-9923-67147bb96563" sshConfig="root@172.22.45.5:22 password">
+        <fileTransfer accessType="SFTP" sshConfigId="7c25bc9c-fe62-4390-9923-67147bb96563" sshConfig="root@172.22.45.5:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
