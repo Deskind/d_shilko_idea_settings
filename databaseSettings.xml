@@ -2,7 +2,6 @@
   <component name="DatabaseSettings" version="9">
     <option name="page-size" value="200" />
     <option name="page-size-updated-timestamp" value="1678173983705" />
-    <option name="skip-refactoring-preview" value="true" />
     <text-mode>
       <parameter-patterns>
         <parameter-pattern value="#(\w+)#" in-scripts="true" scope="XML" predefined="#name#" />
