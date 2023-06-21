@@ -1,5 +1,5 @@
 <templateSet group="+++ java">
-  <template name="java post construct callback" value="@PostConstruct&#10;public void init() {&#10;    &#10;}" description="" toReformat="false" toShortenFQNames="true">
+  <template name="java lifecycle callbacks" value="@PostConstruct&#10;public void init() {&#10;    &#10;}&#10;&#10;@PreDestroy&#10;public void destroy() {&#10;    &#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
