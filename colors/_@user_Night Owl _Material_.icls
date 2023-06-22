@@ -4,7 +4,7 @@
     <property name="created">2021-06-15T09:26:34</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2021.1.2.0.0</property>
-    <property name="modified">2023-06-22T13:23:34</property>
+    <property name="modified">2023-06-23T00:30:20</property>
     <property name="originalScheme">Night Owl (Material)</property>
   </metaInfo>
   <console-font>
@@ -96,7 +96,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="84d81" />
     <option name="SELECTED_INDENT_GUIDE" value="7e97ac" />
     <option name="SELECTED_TEARLINE_COLOR" value="7e97ac" />
-    <option name="SELECTION_BACKGROUND" value="4373c2" />
+    <option name="SELECTION_BACKGROUND" value="92b5ed" />
     <option name="SELECTION_FOREGROUND" value="343535" />
     <option name="SEPARATOR_BELOW_COLOR" value="122d42" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="122d42" />
