@@ -16,7 +16,6 @@
     <entry key="ide.new.editor.tabs.vertical.borders" value="true" />
     <entry key="editor.focus.mode.color.light" value="697098" />
     <entry key="editor.focus.mode.color.dark" value="697098" />
-    <entry key="editor.distraction.free.mode" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
