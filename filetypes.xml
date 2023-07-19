@@ -4,6 +4,7 @@
       <mapping pattern="build_json_from_ate_address.sql" type="AUTO_DETECTED" />
       <mapping pattern="law_suit_trigger" type="AUTO_DETECTED" />
       <mapping pattern="mock_data_description.md" type="AUTO_DETECTED" />
+      <mapping pattern="managed-schema" type="AUTO_DETECTED" />
       <mapping pattern="law_suit_trigger.sql" type="AUTO_DETECTED" />
       <mapping pattern="RolesSlice" type="AUTO_DETECTED" />
       <mapping pattern=".env.development.local" type="JavaScript" />
