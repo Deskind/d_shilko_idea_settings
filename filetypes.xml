@@ -18,8 +18,6 @@
       <mapping ext="failed" type="PLAIN_TEXT" />
       <mapping pattern="civil_control_2.sql" type="SQL" />
       <mapping ext="xhml" type="XHTML" />
-      <mapping ext="wsdd" type="XML" />
-      <mapping ext="xjb" type="XML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping pattern=".dockerignore" approved="true" type="DockerIgnore file" />
