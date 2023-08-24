@@ -77,4 +77,9 @@
       <option name="XML_TEXT" value="true" />
     </context>
   </template>
+  <template name="java_open_api_request_body" value="@io.swagger.v3.oas.annotations.parameters.RequestBody(&#10;                    description = &quot;NASA order&quot;,&#10;                    content = {&#10;                            @io.swagger.v3.oas.annotations.media.Content(&#10;                                    schema = @io.swagger.v3.oas.annotations.media.Schema(implementation = by.todes.elib.orderservice.pojos.Order.class),&#10;                                    examples = {&#10;                                            @io.swagger.v3.oas.annotations.media.ExampleObject(&#10;                                                    description = &quot;NASA order&quot;,&#10;                                                    value = &quot;&quot;&quot;&#10;                                                            &#10;                                                            &quot;&quot;&quot;&#10;                                            )&#10;                                    }&#10;                            )&#10;                    }&#10;            )" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
