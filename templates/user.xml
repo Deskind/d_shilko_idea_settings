@@ -32,12 +32,12 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="java_id_persistence" value="public static final java.lang.String NAME = ???table_name???;&#10;    public static final java.lang.String SEQUENCE_NAME = &quot;SEQ_&quot; + NAME;&#10;&#10;    @jakarta.persistence.Id&#10;    @jakarta.persistence.GeneratedValue(&#10;            generator = SEQUENCE_NAME,&#10;            strategy = jakarta.persistence.GenerationType.SEQUENCE&#10;    )&#10;    @jakarta.persistence.SequenceGenerator(&#10;            name = SEQUENCE_NAME,&#10;            sequenceName = SEQUENCE_NAME,&#10;            allocationSize = 1&#10;    )" toReformat="true" toShortenFQNames="true">
+  <template name="java_id_persistence" value="public static final java.lang.String NAME = ???table_name???;&#10;    public static final java.lang.String SEQUENCE_NAME = &quot;SEQ_&quot; + NAME;&#10;&#10;    @jakarta.persistence.Id&#10;    @jakarta.persistence.GeneratedValue(&#10;            generator = SEQUENCE_NAME,&#10;            strategy = jakarta.persistence.GenerationType.SEQUENCE&#10;    )&#10;    @jakarta.persistence.SequenceGenerator(&#10;            name = SEQUENCE_NAME,&#10;            sequenceName = SEQUENCE_NAME,&#10;            allocationSize = 1&#10;    )" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="java_genetate_ddl" value="jpa:&#10;    hibernate:&#10;      ddl-auto: update&#10;    generate-ddl: true&#10;    show-sql: true" toReformat="true" toShortenFQNames="true">
+  <template name="java_genetate_ddl" value="jpa:&#10;    hibernate:&#10;      ddl-auto: update&#10;    generate-ddl: true&#10;    show-sql: true" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
       <option name="ANY_OPENAPI_YAML_FILE" value="false" />
@@ -71,13 +71,13 @@
       <option name="XML_ATTRIBUTE" value="false" />
     </context>
   </template>
-  <template name="pom_orai18n" value="&lt;dependency&gt;&#10;                &lt;groupId&gt;com.oracle.ojdbc&lt;/groupId&gt;&#10;                &lt;artifactId&gt;orai18n&lt;/artifactId&gt;&#10;                &lt;version&gt;19.3.0.0&lt;/version&gt;&#10;            &lt;/dependency&gt;" toReformat="true" toShortenFQNames="true">
+  <template name="pom_orai18n" value="&lt;dependency&gt;&#10;                &lt;groupId&gt;com.oracle.ojdbc&lt;/groupId&gt;&#10;                &lt;artifactId&gt;orai18n&lt;/artifactId&gt;&#10;                &lt;version&gt;19.3.0.0&lt;/version&gt;&#10;            &lt;/dependency&gt;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="MAVEN" value="true" />
       <option name="XML_TEXT" value="true" />
     </context>
   </template>
-  <template name="java_open_api_request_body" value="@io.swagger.v3.oas.annotations.parameters.RequestBody(&#10;                    description = &quot;NASA order&quot;,&#10;                    content = {&#10;                            @io.swagger.v3.oas.annotations.media.Content(&#10;                                    schema = @io.swagger.v3.oas.annotations.media.Schema(implementation = by.todes.elib.orderservice.pojos.Order.class),&#10;                                    examples = {&#10;                                            @io.swagger.v3.oas.annotations.media.ExampleObject(&#10;                                                    description = &quot;NASA order&quot;,&#10;                                                    value = &quot;&quot;&quot;&#10;                                                            &#10;                                                            &quot;&quot;&quot;&#10;                                            )&#10;                                    }&#10;                            )&#10;                    }&#10;            )" toReformat="true" toShortenFQNames="true">
+  <template name="java_open_api_request_body" value="@io.swagger.v3.oas.annotations.parameters.RequestBody(&#10;                    description = &quot;NASA order&quot;,&#10;                    content = {&#10;                            @io.swagger.v3.oas.annotations.media.Content(&#10;                                    schema = @io.swagger.v3.oas.annotations.media.Schema(implementation = by.todes.elib.orderservice.pojos.Order.class),&#10;                                    examples = {&#10;                                            @io.swagger.v3.oas.annotations.media.ExampleObject(&#10;                                                    description = &quot;NASA order&quot;,&#10;                                                    value = &quot;&quot;&quot;&#10;                                                            &#10;                                                            &quot;&quot;&quot;&#10;                                            )&#10;                                    }&#10;                            )&#10;                    }&#10;            )" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
