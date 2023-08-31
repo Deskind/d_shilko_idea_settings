@@ -82,4 +82,10 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="java_javers_builder" value="org.javers.core.Javers javers = org.javers.core.JaversBuilder.javers()&#10;                .registerValueObject(&#10;                        org.javers.core.metamodel.clazz.ValueObjectDefinitionBuilder.valueObjectDefinition(by.todes.elib.mets.FileType.FLocat.class)&#10;                                .withTypeName(&quot;METS Файл&quot;)&#10;                                .build()&#10;                ).registerIgnoredClass(by.todes.elib.mets.MdSecType.MdWrap.class)&#10;                .registerIgnoredClass(javax.xml.namespace.QName.class)&#10;                .build();" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
