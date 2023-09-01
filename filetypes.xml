@@ -11,6 +11,7 @@
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern=".gitattributes" type="PLAIN_TEXT" />
       <mapping pattern="+++ delete me later" type="PLAIN_TEXT" />
       <mapping pattern="issue script" type="PLAIN_TEXT" />
       <mapping pattern=".dockerignore" type="PLAIN_TEXT" />
