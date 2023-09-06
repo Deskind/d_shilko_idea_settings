@@ -2,4 +2,7 @@
   <template name="main" value="public static void main(String[] args){&#10;  $END$&#10;}" description="main() method declaration" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
+  <template name="soutc" value="System.out::println" description="System.out::println" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
