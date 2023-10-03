@@ -6,6 +6,7 @@
       <w>abonents</w>
       <w>ahtung</w>
       <w>appnode</w>
+      <w>basiclookupstrategy</w>
       <w>biblio</w>
       <w>cassation</w>
       <w>categ</w>
@@ -22,6 +23,7 @@
       <w>ecourt</w>
       <w>ejust</w>
       <w>elib</w>
+      <w>filesystemsource</w>
       <w>fullrecord</w>
       <w>funcs</w>
       <w>geko</w>
