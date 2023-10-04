@@ -88,4 +88,37 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="docker_run_spring_boot_app" value="FROM openjdk:17-jdk-alpine&#10;ARG JAR_FILE=target/*.jar&#10;COPY ./target/elib-files.jar app.jar&#10;ENTRYPOINT [&quot;java&quot;, &quot;-jar&quot;, &quot;/app.jar&quot;]" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ANY_OPENAPI_JSON_FILE" value="false" />
+      <option name="ANY_OPENAPI_YAML_FILE" value="false" />
+      <option name="AsciiDoc" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="ECMAScript6" value="false" />
+      <option name="GENERAL_JSON_FILE" value="false" />
+      <option name="GENERAL_YAML_FILE" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="HTTP_CLIENT_ENVIRONMENT" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="PROTO" value="false" />
+      <option name="PROTOTEXT" value="false" />
+      <option name="Properties" value="false" />
+      <option name="QUTE" value="false" />
+      <option name="REQUEST" value="false" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Vue" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_ATTRIBUTE" value="false" />
+    </context>
+  </template>
 </templateSet>
