@@ -88,7 +88,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="docker_run_spring_boot_app" value="FROM openjdk:17-jdk-alpine&#10;ARG JAR_FILE=target/*.jar&#10;COPY ./target/elib-files.jar app.jar&#10;ENTRYPOINT [&quot;java&quot;, &quot;-jar&quot;, &quot;/app.jar&quot;]" toReformat="true" toShortenFQNames="true">
+  <template name="docker_run_spring_boot_app" value="FROM openjdk:17-jdk-alpine&#10;ARG JAR_FILE=target/*.jar&#10;COPY ./target/elib-files.jar app.jar&#10;ENTRYPOINT [&quot;java&quot;, &quot;-jar&quot;, &quot;/app.jar&quot;]" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
       <option name="ANY_OPENAPI_YAML_FILE" value="false" />
@@ -121,7 +121,7 @@
       <option name="XML_ATTRIBUTE" value="false" />
     </context>
   </template>
-  <template name="docker_build_and_run_spring_boot_app" value="FROM maven:latest as build&#10;COPY pom.xml /build/&#10;COPY src /build/src/&#10;WORKDIR /build/&#10;RUN mvn clean package&#10;&#10;FROM openjdk:17-jdk-alpine&#10;WORKDIR /app/&#10;COPY --from=build /build/target/elib-files.jar /app/&#10;ENTRYPOINT [&quot;java&quot;, &quot;-jar&quot;, &quot;elib-files.jar&quot;]" toReformat="true" toShortenFQNames="true">
+  <template name="docker_build_and_run_spring_boot_app" value="FROM maven:latest as build&#10;COPY pom.xml /build/&#10;COPY src /build/src/&#10;WORKDIR /build/&#10;RUN mvn clean package&#10;&#10;FROM openjdk:17-jdk-alpine&#10;WORKDIR /app/&#10;COPY --from=build /build/target/elib-files.jar /app/&#10;ENTRYPOINT [&quot;java&quot;, &quot;-jar&quot;, &quot;elib-files.jar&quot;]" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
       <option name="ANY_OPENAPI_YAML_FILE" value="false" />
