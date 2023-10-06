@@ -159,7 +159,7 @@
       <option name="XML_TEXT" value="true" />
     </context>
   </template>
-  <template name="compose_spring_boot_app" value="version: '3.7'&#10;&#10;services:&#10;  elibfiles:&#10;    build: ." toReformat="true" toShortenFQNames="true">
+  <template name="compose_spring_boot_app" value="version: '3.7'&#10;&#10;services:&#10;  elibfiles:&#10;    build: ." description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="GENERAL_YAML_FILE" value="true" />
     </context>
