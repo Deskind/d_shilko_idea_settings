@@ -1,0 +1,7 @@
+<templateSet group="elib">
+  <template name="elib_xml_validation" value="// validating ...&#10;SchemaFactory factory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);&#10;&#10;Validator validator =&#10;                    factory.newSchema(new Source[]{&#10;                            new StreamSource(new ClassPathResource(&quot;xsd/mets.xsd&quot;).getInputStream()),&#10;                            new StreamSource(new ClassPathResource(&quot;xsd/METSRights.xsd&quot;).getInputStream()),&#10;                            new StreamSource(new ClassPathResource(&quot;xsd/NLBTech.xsd&quot;).getInputStream()),&#10;                    }).newValidator();&#10;&#10;            validator.validate(new JAXBSource(jaxbContext, mets));" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
