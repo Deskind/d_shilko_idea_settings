@@ -4,4 +4,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="openapi_api_response" value="@io.swagger.v3.oas.annotations.responses.ApiResponse(&#10;                    responseCode = &quot;200&quot;,&#10;                    description = &quot;Saved successfully&quot;,&#10;                    content = @io.swagger.v3.oas.annotations.media.Content(&#10;                            schema = @io.swagger.v3.oas.annotations.media.Schema(&#10;                                    implementation = by.todes.elib.mets.service.pojos.MetsDTO.class&#10;                            )&#10;                    )&#10;            )" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
