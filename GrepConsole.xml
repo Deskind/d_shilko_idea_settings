@@ -178,15 +178,6 @@
           <option name="models">
             <list>
               <GrepModel>
-                <option name="expression" value="-&gt; " />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
                 <option name="expression" value="DEBUG ---" />
               </GrepModel>
             </list>
@@ -197,6 +188,15 @@
             <list>
               <GrepModel>
                 <option name="expression" value="b.t.e.m.s" />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
+                <option name="expression" value="-&gt; " />
               </GrepModel>
             </list>
           </option>
