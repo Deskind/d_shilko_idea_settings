@@ -4,11 +4,11 @@
     <property name="created">2021-06-15T09:26:34</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2021.1.2.0.0</property>
-    <property name="modified">2023-10-17T16:37:44</property>
+    <property name="modified">2023-10-17T16:57:23</property>
     <property name="originalScheme">Night Owl (Material)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="0.8" />
-  <option name="EDITOR_FONT_SIZE" value="13" />
+  <option name="EDITOR_FONT_SIZE" value="19" />
   <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
   <console-font>
     <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
