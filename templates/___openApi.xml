@@ -1,0 +1,7 @@
+<templateSet group="+++openApi">
+  <template name="openapi_header_description" value="@Parameter(&#10;            name = &quot;Accept&quot;,&#10;            in = ParameterIn.HEADER,&#10;            description = &quot;Если header не указан, то по умолчанию вернется json представление.&quot;,&#10;            examples = {&#10;                    @ExampleObject(&#10;                            name = &quot;Accept json&quot;,&#10;                            value = &quot;application/json&quot;&#10;                    ),&#10;                    @ExampleObject(&#10;                            name = &quot;Accept xml&quot;,&#10;                            value = &quot;application/xml&quot;&#10;                    )&#10;            }&#10;    )" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
