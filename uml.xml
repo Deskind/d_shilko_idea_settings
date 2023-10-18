@@ -1,6 +1,6 @@
 <application>
   <component name="UmlConfiguration">
-    <option name="defaultLayout" value="ORTHOGONAL_GROUPS" />
-    <option name="layout" value="ORTHOGONAL_GROUPS" />
+    <option name="defaultLayout" value="HIERARCHIC_COMPACT" />
+    <option name="layout" value="HIERARCHIC_COMPACT" />
   </component>
 </application>
