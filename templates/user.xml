@@ -164,4 +164,9 @@
       <option name="GENERAL_YAML_FILE" value="true" />
     </context>
   </template>
+  <template name="openapi_request_parameter" value="@io.swagger.v3.oas.annotations.Parameter(&#10;                    description = &quot;Путь к корневой директории цифровой копии (без слэша в конце)&quot;,&#10;                    examples = {&#10;                            @io.swagger.v3.oas.annotations.media.ExampleObject(&#10;                                    name = &quot;localhost path&quot;,&#10;                                    value = &quot;mets-service/files/book_1&quot;&#10;                            )&#10;                    }&#10;            )" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
 </templateSet>
