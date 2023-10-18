@@ -60,6 +60,7 @@
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="Console.TableResult.SetDefault" />
+  <action id="Console.TableResult.SetNull" />
   <action id="ContextHelp" />
   <action id="CopyElement" />
   <action id="Debugger.EditArrayFilter" />
@@ -99,9 +100,11 @@
   <action id="Forward">
     <keyboard-shortcut first-keystroke="shift ctrl period" />
   </action>
+  <action id="Git.New.Branch.In.Log" />
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="GitNewBranchAction" />
   <action id="GotoNextBookmark">
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
@@ -119,7 +122,11 @@
   <action id="GuiDesigner.QuickJavadoc">
     <mouse-shortcut keystroke="alt button2" />
   </action>
+  <action id="Inline" />
   <action id="InsertLiveTemplate" />
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="ctrl alt n" />
+  </action>
   <action id="KotlinShellExecute" />
   <action id="LivePlugin.RunPlugin">
     <keyboard-shortcut first-keystroke="shift ctrl l" />
