@@ -1,0 +1,6 @@
+<application>
+  <component name="UmlConfiguration">
+    <option name="defaultLayout" value="ORTHOGONAL_GROUPS" />
+    <option name="layout" value="ORTHOGONAL_GROUPS" />
+  </component>
+</application>

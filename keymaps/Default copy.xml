@@ -132,6 +132,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl l" />
   </action>
   <action id="LivePlugin.TestPlugin" />
+  <action id="MoveElementLeft" />
   <action id="NotebookRunCellAction" />
   <action id="PerforceDirect.Edit" />
   <action id="PyExecuteCellAction" />
@@ -155,7 +156,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl e" />
     <keyboard-shortcut first-keystroke="alt r" />
   </action>
-  <action id="ResizeToolWindowLeft" />
   <action id="SaveAll" />
   <action id="SelectNextOccurrence" />
   <action id="ShelvedChanges.Rename">
