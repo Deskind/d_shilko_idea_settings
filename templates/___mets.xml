@@ -1,0 +1,9 @@
+<templateSet group="+++mets">
+  <template name="mets_file_1" value="{&#10;          &quot;ID&quot;: &quot;FILE1&quot;,&#10;          &quot;FLocat&quot;: [&#10;            {&#10;              &quot;ID&quot;: null,&#10;              &quot;USE&quot;: null,&#10;              &quot;LOCTYPE&quot;: &quot;URL&quot;,&#10;              &quot;OTHERLOCTYPE&quot;: null,&#10;              &quot;type&quot;: null,&#10;              &quot;href&quot;: &quot;mets-service\\files\\book_1\\MASTER\\one\\one.png&quot;,&#10;              &quot;role&quot;: null,&#10;              &quot;arcrole&quot;: null,&#10;              &quot;title&quot;: null,&#10;              &quot;show&quot;: null,&#10;              &quot;actuate&quot;: null&#10;            }&#10;          ],&#10;          &quot;FContent&quot;: null,&#10;          &quot;stream&quot;: null,&#10;          &quot;transformFile&quot;: null,&#10;          &quot;file&quot;: null,&#10;          &quot;otherAttributes&quot;: {&#10;            &quot;fileStatus&quot;: &quot;new&quot;,&#10;            &quot;fileUseCode&quot;: &quot;1&quot;&#10;          },&#10;          &quot;SEQ&quot;: null,&#10;          &quot;OWNERID&quot;: null,&#10;          &quot;ADMID&quot;: null,&#10;          &quot;DMDID&quot;: null,&#10;          &quot;GROUPID&quot;: null,&#10;          &quot;USE&quot;: null,&#10;          &quot;BEGIN&quot;: null,&#10;          &quot;END&quot;: null,&#10;          &quot;BETYPE&quot;: null,&#10;          &quot;MIMETYPE&quot;: null,&#10;          &quot;SIZE&quot;: 57276,&#10;          &quot;CREATED&quot;: &quot;2023-10-12T14:57:44.448+00:00&quot;,&#10;          &quot;CHECKSUM&quot;: null,&#10;          &quot;CHECKSUMTYPE&quot;: null&#10;        }" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+</templateSet>
