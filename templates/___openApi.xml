@@ -1,12 +1,17 @@
 <templateSet group="+++openApi">
-  <template name="openapi_header_description" value="@Parameter(&#10;            name = &quot;Accept&quot;,&#10;            in = ParameterIn.HEADER,&#10;            description = &quot;Если header не указан, то по умолчанию вернется json представление.&quot;,&#10;            examples = {&#10;                    @ExampleObject(&#10;                            name = &quot;Accept json&quot;,&#10;                            value = &quot;application/json&quot;&#10;                    ),&#10;                    @ExampleObject(&#10;                            name = &quot;Accept xml&quot;,&#10;                            value = &quot;application/xml&quot;&#10;                    )&#10;            }&#10;    )" description="" toReformat="false" toShortenFQNames="true">
+  <template name="java_openapi_header_description" value="@Parameter(&#10;            name = &quot;Accept&quot;,&#10;            in = ParameterIn.HEADER,&#10;            description = &quot;Если header не указан, то по умолчанию вернется json представление.&quot;,&#10;            examples = {&#10;                    @ExampleObject(&#10;                            name = &quot;Accept json&quot;,&#10;                            value = &quot;application/json&quot;&#10;                    ),&#10;                    @ExampleObject(&#10;                            name = &quot;Accept xml&quot;,&#10;                            value = &quot;application/xml&quot;&#10;                    )&#10;            }&#10;    )" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="openapi_api_response" value="@io.swagger.v3.oas.annotations.responses.ApiResponse(&#10;                    responseCode = &quot;200&quot;,&#10;                    description = &quot;Saved successfully&quot;,&#10;                    content = @io.swagger.v3.oas.annotations.media.Content(&#10;                            schema = @io.swagger.v3.oas.annotations.media.Schema(&#10;                                    implementation = by.todes.elib.mets.service.pojos.MetsDTO.class&#10;                            )&#10;                    )&#10;            )" description="" toReformat="true" toShortenFQNames="true">
+  <template name="java_openapi_api_response" value="@io.swagger.v3.oas.annotations.responses.ApiResponse(&#10;                    responseCode = &quot;200&quot;,&#10;                    description = &quot;Saved successfully&quot;,&#10;                    content = @io.swagger.v3.oas.annotations.media.Content(&#10;                            schema = @io.swagger.v3.oas.annotations.media.Schema(&#10;                                    implementation = by.todes.elib.mets.service.pojos.MetsDTO.class&#10;                            )&#10;                    )&#10;            )" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="java_openapi_parameter" value="@io.swagger.v3.oas.annotations.Parameter(&#10;                    description = &quot;MARC ID&quot;,&#10;                    examples = {&#10;                            @io.swagger.v3.oas.annotations.media.ExampleObject(&#10;                                    name = &quot;example 1&quot;,&#10;                                    value = &quot;MARC-1234&quot;&#10;                            )&#10;                    }&#10;            )" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
 </templateSet>
