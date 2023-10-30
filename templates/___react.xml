@@ -29,4 +29,12 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="react_axios_get_request" value="axios.get(&#10;        'http://localhost:8080/portal/books',&#10;        {&#10;            headers: {&#10;&#10;            },&#10;            params: {&#10;&#10;            }&#10;        }&#10;    )" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_CLASS_MEMBER_EXPRESSION" value="false" />
+      <option name="JS_EXPRESSION" value="true" />
+    </context>
+  </template>
 </templateSet>
