@@ -4,4 +4,29 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="react_imports" value="import React from &quot;react&quot;;&#10;import ReactDOM from &quot;react-dom&quot;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="ES6_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="JS_CLASS_MEMBER_STATEMENT" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="react_create_root" value="const reactDOMRoot =&#10;    ReactDOM.createRoot(&#10;        document.getElementById(&quot;root&quot;)&#10;    );" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="ES6_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="JS_CLASS_MEMBER_STATEMENT" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="react_jsx_return_statement" value="return (&#10;      &lt;h1&gt;Hey yo!&lt;/h1&gt;  &#10;    );" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_CLASS_MEMBER_STATEMENT" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
