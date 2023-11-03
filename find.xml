@@ -1,9 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="yml settings" />
-    <option name="defaultScopeName" value="yml settings" />
-    <option name="SEARCH_SCOPE" value="yml settings" />
-    <option name="FILE_MASK" value="*.yml" />
+    <option name="customScope" value="entities" />
+    <option name="defaultScopeName" value="entities" />
+    <option name="SEARCH_SCOPE" value="entities" />
     <mask>*.html</mask>
     <mask>*.jsp</mask>
     <mask>*.as</mask>
