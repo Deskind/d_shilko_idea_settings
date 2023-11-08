@@ -18,6 +18,7 @@
       <mapping pattern=".env.production" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="rb" type="PLAIN_TEXT" />
+      <mapping ext="service" type="PLAIN_TEXT" />
       <mapping ext="mrc" type="PLAIN_TEXT" />
       <mapping ext="failed" type="PLAIN_TEXT" />
       <mapping pattern="civil_control_2.sql" type="SQL" />
