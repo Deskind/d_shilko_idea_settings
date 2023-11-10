@@ -24,7 +24,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="java_ehcache_config_root_element" value="&lt;config xmlns='http://www.ehcache.org/v3'&#10;        xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&#10;        xsi:schemaLocation=&quot;http://www.ehcache.org/v3 http://www.ehcache.org/schema/ehcache-core-3.10.xsd&quot;&gt;" toReformat="true" toShortenFQNames="true">
+  <template name="java_ehcache_config_root_element" value="&lt;config xmlns='http://www.ehcache.org/v3'&#10;        xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&#10;        xsi:schemaLocation=&quot;http://www.ehcache.org/v3 http://www.ehcache.org/schema/ehcache-core-3.10.xsd&quot;&gt;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="XML_TEXT" value="true" />
     </context>
