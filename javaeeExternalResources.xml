@@ -2,6 +2,7 @@
   <component name="ExternalResourceManagerImpl">
     <resource url="http://primefaces.org/ui" location="$MAVEN_REPOSITORY$/org/primefaces/primefaces/7.0/primefaces-7.0.jar!/META-INF/primefaces-p.taglib.xml" />
     <resource url="http://todes.by/elib/nlbtech/" location="d:/PROJECTS/+++WORK+++/the_lib" />
+    <resource url="http://www.ehcache.org/schema/ehcache-core-3.10.xsd" location="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2023.1/extResources/9692aaa_ehcache-core-3.10.xsd" />
     <resource url="http://www.loc.gov/standards/xlink/xlink.xsd" location="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2023.1/extResources/2811e75f_xlink.xsd" />
     <resource url="https://www.loc.gov/standards/rights/METSRights.xsd" location="$USER_HOME$/AppData/Local/JetBrains/IntelliJIdea2023.1/extResources/67d55433_METSRights.xsd" />
     <resource url="urn:jboss:batch-jberet:1.0" location="D:/PROGRAMS/wildfly-26.1.2.Final/docs/schema/batch-jberet_1_0.xsd" />
