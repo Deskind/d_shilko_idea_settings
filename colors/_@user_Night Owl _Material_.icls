@@ -4,7 +4,7 @@
     <property name="created">2021-06-15T09:26:34</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2021.1.2.0.0</property>
-    <property name="modified">2023-11-11T10:20:25</property>
+    <property name="modified">2023-11-12T18:23:40</property>
     <property name="originalScheme">Night Owl (Material)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="0.8" />
@@ -121,7 +121,7 @@
     <option name="ScrollBar.trackColor" value="11627" />
     <option name="TAB_UNDERLINE" value="7e57c2" />
     <option name="TAB_UNDERLINE_INACTIVE" value="7e57c2c0" />
-    <option name="TEARLINE_COLOR" value="684ee" />
+    <option name="TEARLINE_COLOR" value="6ee2d" />
     <option name="TOOLTIP" value="11627" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="637777" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="2e3c43" />
@@ -454,7 +454,7 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="7fdbca" />
+        <option name="FOREGROUND" value="6ee2d" />
         <option name="EFFECT_COLOR" value="7fdbca" />
       </value>
     </option>
