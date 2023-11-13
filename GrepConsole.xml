@@ -205,6 +205,15 @@
           <option name="models">
             <list>
               <GrepModel>
+                <option name="expression" value="-&gt; " />
+              </GrepModel>
+            </list>
+          </option>
+        </GrepCompositeModel>
+        <GrepCompositeModel>
+          <option name="models">
+            <list>
+              <GrepModel>
                 <option name="expression" value=" from kl_uni " />
               </GrepModel>
             </list>
@@ -215,15 +224,6 @@
             <list>
               <GrepModel>
                 <option name="expression" value="hiber.cache.inter" />
-              </GrepModel>
-            </list>
-          </option>
-        </GrepCompositeModel>
-        <GrepCompositeModel>
-          <option name="models">
-            <list>
-              <GrepModel>
-                <option name="expression" value="-&gt; " />
               </GrepModel>
             </list>
           </option>
