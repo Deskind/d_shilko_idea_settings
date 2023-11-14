@@ -29,4 +29,17 @@
       <option name="XML_TEXT" value="true" />
     </context>
   </template>
+  <template name="java_json_jackson_json_date_format" value="@com.fasterxml.jackson.annotation.JsonFormat(pattern=&quot;yyyy-MM-dd HH:mm:ss&quot;)" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="COMPLETION" value="false" />
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_CONSUMER" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_ELSE_PLACE" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+    </context>
+  </template>
 </templateSet>

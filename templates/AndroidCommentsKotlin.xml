@@ -14,4 +14,13 @@
     <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="cfalse" value="`false`" description="puts false in a comment section" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="ctrue" value="`true`" description="puts true in a comment section" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+  <template name="noop" value="/* no-op */" description="indicate that a method does not have any operations" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
