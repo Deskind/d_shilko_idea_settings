@@ -32,7 +32,7 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="java_id_persistence" value="public static final java.lang.String NAME = ???table_name???;&#10;    public static final java.lang.String SEQUENCE_NAME = &quot;SEQ_&quot; + NAME;&#10;&#10;    @jakarta.persistence.Id&#10;    @jakarta.persistence.GeneratedValue(&#10;            generator = SEQUENCE_NAME,&#10;            strategy = jakarta.persistence.GenerationType.SEQUENCE&#10;    )&#10;    @jakarta.persistence.SequenceGenerator(&#10;            name = SEQUENCE_NAME,&#10;            sequenceName = SEQUENCE_NAME,&#10;            allocationSize = 1&#10;    )" description="" toReformat="true" toShortenFQNames="true">
+  <template name="java_id_persistence" value="public static final java.lang.String NAME = ???table_name???;&#10;    public static final java.lang.String SEQUENCE_NAME = &quot;SEQ_&quot; + NAME;&#10;&#10;    @jakarta.persistence.Id&#10;    @jakarta.persistence.GeneratedValue(&#10;            generator = SEQUENCE_NAME,&#10;            strategy = jakarta.persistence.GenerationType.SEQUENCE&#10;    )&#10;    @jakarta.persistence.SequenceGenerator(&#10;            name = SEQUENCE_NAME,&#10;            sequenceName = SEQUENCE_NAME,&#10;            allocationSize = 1&#10;    )&#10;    @Column(name=&quot;ID&quot;)&#10;    private Long id;" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
