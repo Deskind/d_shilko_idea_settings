@@ -42,4 +42,15 @@
       <option name="JAVA_STRING" value="false" />
     </context>
   </template>
+  <template name="java_local_date_time_to_date" value="java.util.Date.from(date.atZone(java.time.ZoneId.systemDefault()).toInstant())" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="java_date_to_locatl_date_time" value="date.toInstant()&#10;                                                    .atZone(java.time.ZoneId.systemDefault())&#10;                                                    .toLocalDateTime()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
