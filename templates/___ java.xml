@@ -53,7 +53,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="java_git_attributes" value="Jenkinsfile merge=ours&#10;Dockerfile merge=ours&#10;default.conf merge=ours" toReformat="true" toShortenFQNames="true">
+  <template name="java_git_attributes" value="Jenkinsfile merge=ours&#10;Dockerfile merge=ours&#10;default.conf merge=ours" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="ANY_OPENAPI_JSON_FILE" value="false" />
       <option name="ANY_OPENAPI_YAML_FILE" value="false" />
