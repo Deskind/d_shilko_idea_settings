@@ -169,4 +169,18 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="iiif_resource_id_for_pdf" value="&quot;id&quot;: &quot;http://localhost:8182/iiif/3/ch_1.pdf;1/full/max/0/default.jpg&quot;," toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
+  <template name="iiiif_service" value="{&#10;              &quot;context&quot;: &quot;http://iiif.io/api/image/3/context.json&quot;,&#10;              &quot;id&quot;: &quot;http://localhost:8182/iiif/3/ch_1.pdf;1&quot;,&#10;              &quot;type&quot;: null,&#10;              &quot;profile&quot;: &quot;http://iiif.io/api/image/2/level2.json&quot;&#10;            }" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSON" value="true" />
+      <option name="JSON_PROPERTY_KEYS" value="false" />
+      <option name="JSON_STRING_VALUES" value="false" />
+    </context>
+  </template>
 </templateSet>
