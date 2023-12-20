@@ -95,4 +95,10 @@
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
+  <template name="java_blaze_criteria_builder_factory" value="com.blazebit.persistence.CriteriaBuilderFactory criteriaBuilderFactory = &#10;                com.blazebit.persistence.Criteria.getDefault()&#10;                        .createCriteriaBuilderFactory(entityManager.getEntityManager().getEntityManagerFactory());" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
