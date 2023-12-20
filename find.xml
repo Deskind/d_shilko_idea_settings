@@ -14,7 +14,7 @@
     <mask>*.css</mask>
     <mask>*.xml</mask>
     <mask>*.java</mask>
-    <mask>*.yml</mask>
     <mask>*.pom</mask>
+    <mask>*.yml</mask>
   </component>
 </application>
