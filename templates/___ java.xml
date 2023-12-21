@@ -90,12 +90,12 @@
       <option name="XML_ATTRIBUTE" value="false" />
     </context>
   </template>
-  <template name="java_kl_uni_mapping" value="@jakarta.persistence.JoinColumns({&#10;            @jakarta.persistence.JoinColumn(name = &quot;T_STATUS&quot;, referencedColumnName = &quot;TYPE&quot;),&#10;            @jakarta.persistence.JoinColumn(name = &quot;C_STATUS&quot;, referencedColumnName = &quot;CODE&quot;)})&#10;    @jakarta.persistence.ManyToOne" toReformat="true" toShortenFQNames="true">
+  <template name="java_kl_uni_mapping" value="@jakarta.persistence.JoinColumns({&#10;            @jakarta.persistence.JoinColumn(name = &quot;T_STATUS&quot;, referencedColumnName = &quot;TYPE&quot;),&#10;            @jakarta.persistence.JoinColumn(name = &quot;C_STATUS&quot;, referencedColumnName = &quot;CODE&quot;)})&#10;    @jakarta.persistence.ManyToOne" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_DECLARATION" value="true" />
     </context>
   </template>
-  <template name="java_blaze_criteria_builder_factory" value="com.blazebit.persistence.CriteriaBuilderFactory criteriaBuilderFactory = &#10;                com.blazebit.persistence.Criteria.getDefault()&#10;                        .createCriteriaBuilderFactory(entityManager.getEntityManager().getEntityManagerFactory());" toReformat="true" toShortenFQNames="true">
+  <template name="java_blaze_criteria_builder_factory" value="com.blazebit.persistence.CriteriaBuilderFactory criteriaBuilderFactory = &#10;                com.blazebit.persistence.Criteria.getDefault()&#10;                        .createCriteriaBuilderFactory(entityManager.getEntityManager().getEntityManagerFactory());" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
