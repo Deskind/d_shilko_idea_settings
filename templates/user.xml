@@ -183,7 +183,7 @@
       <option name="JSON_STRING_VALUES" value="false" />
     </context>
   </template>
-  <template name="java_doc_true" value="{@code true}" toReformat="true" toShortenFQNames="true">
+  <template name="java_doc_true" value="{@code true}" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
