@@ -188,7 +188,7 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="sql_add_kl_uni_collumns_with_ff" value="alter table ELIB_SESSION_EVENTS&#10;    add T_EVENT NUMBER&#10;/&#10;&#10;alter table ELIB_SESSION_EVENTS&#10;    add C_EVENT NUMBER&#10;/&#10;&#10;alter table ELIB_SESSION_EVENTS&#10;    add constraint SESSION_EVENT_TO_KL_UNI_FK&#10;        foreign key (T_EVENT, C_EVENT) references KL_UNI&#10;/" toReformat="true" toShortenFQNames="true">
+  <template name="sql_add_kl_uni_collumns_with_ff" value="alter table ELIB_SESSION_EVENTS&#10;    add T_EVENT NUMBER&#10;/&#10;&#10;alter table ELIB_SESSION_EVENTS&#10;    add C_EVENT NUMBER&#10;/&#10;&#10;alter table ELIB_SESSION_EVENTS&#10;    add constraint SESSION_EVENT_TO_KL_UNI_FK&#10;        foreign key (T_EVENT, C_EVENT) references KL_UNI&#10;/" description="" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="SQL_CODE_ORACLE" value="true" />
       <option name="SQL_QUERY_ORACLE" value="true" />
