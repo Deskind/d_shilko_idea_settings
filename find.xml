@@ -13,8 +13,8 @@
     <mask>*.xhtml</mask>
     <mask>*.css</mask>
     <mask>*.pom</mask>
-    <mask>*.yml</mask>
     <mask>*.java</mask>
+    <mask>*.yml</mask>
     <mask>*.xml</mask>
   </component>
 </application>
