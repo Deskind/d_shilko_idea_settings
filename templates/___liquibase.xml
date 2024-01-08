@@ -17,7 +17,6 @@
       <option name="CSS" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="CoffeeScript" value="false" />
-      <option name="ECMAScript6" value="false" />
       <option name="GENERAL_JSON_FILE" value="false" />
       <option name="GENERAL_YAML_FILE" value="false" />
       <option name="GROOVY" value="false" />
